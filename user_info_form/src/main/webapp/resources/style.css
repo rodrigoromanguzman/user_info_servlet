@@ -1,0 +1,43 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 21, 2023, 9:11:40 PM
+    Author     : rodrigoroman
+*/
+body{
+    line-height: 1.6em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-Serif";
+    font-size: 12px;
+    color:#669;
+}
+
+table{
+    margin: 45px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 20px;
+}
+
+
+ td{
+    padding: 10px 15px;
+    color: #669;
+    border-top: 1px solid #e8edff;
+}
+
+.leftColumn{
+    background: #d0dafd;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+tr:hover td{
+    color: #339;
+    background: #eff2ff;
+}

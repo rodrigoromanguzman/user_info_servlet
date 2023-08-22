@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="resources/style.css"/>
+        <script src = "resources/functions.js"></script>
+    </head>
+    <body>
+        <form method="post" action ="user-info" id="userInfoForm">
+            <table>
+                <caption> Formulario de Registro de Datos</caption>
+                <tr>
+                    <td class = "leftColumn">
+                        Usuario (*)
+                    </td>
+                    <td>
+                        <input name = "username" type ="text">
+                    </td>                   
+                </tr>
+                <tr>
+                    <td class = "leftColumn">
+                        Contraseña (*)
+                    </td>
+                    <td>
+                        <input name = "password" type = "password">
+                    </td>
+                </tr>
+                <tr>
+                    <td  class = "leftColumn">
+                        Tecnologias de internet (*)
+                    </td>
+                    <td>
+                        <label for = "java">
+                            Java
+                        </label>
+                        <input type ="checkbox" name ="technologies" value ="Java" id="java"> 
+                        <label for = "net">
+                            .Net
+                        </label>
+                        <input type ="checkbox" name ="technologies" value=".Net" id="net"> 
+                        <label for = "php">
+                            Php
+                        </label>
+                        <input type ="checkbox" name ="technologies" value="Php" id ="php">
+                    </td>
+                </tr>
+                <tr>
+                    <td  class = "leftColumn">
+                        Genero (*)
+                    </td>
+                    <td>
+                        <label>Hombre</label>
+                        <input type ="radio" value ="man" name ="gender">
+                        <label>Mujer</label>
+                        <input type ="radio" value ="woman" name ="gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td  class = "leftColumn">
+                        Position
+                    </td>
+                    <td>
+                        <select name = "position" >
+                            <option value ="Front-end Developer">
+                                Front End Developer
+                            </option>
+                            <option value ="Front-end Developer"" >
+                                 Back End Developer
+                            </option>
+                            <option value ="Data Analyst">
+                                 Data Analyst
+                            </option>
+                        </select>    
+                    </td>
+                </tr>
+                <tr>
+                    <td  class = "leftColumn">
+                        Musica Favorita
+                    </td>
+                    <td>
+                        <select multiple name ="music">
+                            <option value = "Rock"> Rock</option>
+                            <option value = "Pop"> Pop</option>
+                            <option value = "Clasica"> Clasica</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td  class = "leftColumn">
+                        Comentarios
+                    </td>
+                    <td>
+                        <textarea name ="comments"></textarea>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <button type = "reset">Resetear</button>
+                    </td>
+                    <td>
+                        <button type = "submit">Enviar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
